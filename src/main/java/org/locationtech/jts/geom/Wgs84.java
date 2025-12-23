@@ -11,7 +11,7 @@ import static java.util.regex.Pattern.CASE_INSENSITIVE;
 import static java.util.regex.Pattern.compile;
 
 /**
- * Earth coordinates in longitude, latitude, emtres AMSL
+ * Earth coordinates in longitude, latitude, metres AMSL
  *
  * x is stored in the range 0 ... 360, with values over 180 representing West. y
  * is stored in the range -90 ... +90, with negative representing South z is
