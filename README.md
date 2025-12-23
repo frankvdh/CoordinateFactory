@@ -44,7 +44,8 @@ This project allows control of _Coordinate_ subclasses, in the same way that
 _CoordinateSequenceFactory_ allows control of _CoordinateSequence_ subclasses. 
 
 The problem I'm trying to solve is that I have a subclass of _Coordinate_ which 
-has additional methods. However, when the JTS library performs _union()_, _difference()_, etc operations on _LineStrings_ or _Polygons_ made up of my _Coordinates_,
+has additional methods. However, when the JTS library performs _union()_, 
+_difference()_, etc operations on _LineStrings_ or _Polygons_ made up of my _Coordinates_,
 it constructs <u>**generic _Coordinate_**</u> objects and inserts them in the resulting object. These have the correct 
 x,y,z interpolated value, but, because 
 they're generic _Coordinates_, they cannot call methods in my 
