@@ -214,7 +214,6 @@ public class Wgs84 extends Coordinate {
 
         y = parseDouble(lat);
         x = parseDouble(lng);
-//    assert false: "Unrecognised LonLat format: " + lat + ", " + lng;
     }
 
     /**
