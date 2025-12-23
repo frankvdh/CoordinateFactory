@@ -4,7 +4,8 @@ package org.locationtech.jts.geom;
      * Coordinate Factory, to be used to create Coordinates of a specified subclass
      * 
      * @author <a href="mailto:drifter.frank@gmail.com">Frank van der Hulst</a>
- * @param <T>
+     * 
+     * @param <T> Coordinate subclass to be built by this CoordinateFactory
      *
      */
 public interface CoordinateFactory<T> {
